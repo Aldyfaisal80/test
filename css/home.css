@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .container h1 {
+    text-align: center;
+}
+
+body .container section {
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    gap: 20px;
+}
+
+body .container section .left {
+    width: 50%;
+    border-right: 2px solid black;
+}
+
+
+body .container section .left .html img {
+    width: 200px;
+}
+
+body .container section .right {
+    width: 50%;
+}
+
+body .container section .right .css img {
+    width: 140px;
+}
+
+/* body .container section .right .css */
+
